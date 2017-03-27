@@ -1,30 +1,18 @@
 <?php
 
-$tcxc_host = "https://members.telecomsxchange.com";
 
-//TCXC (TelecomsXChange) Buyer login
-$login = "{{ Buyer_Username }}";
+include 'auth.php';
 
-//TCXC (TelecomsXChange) API key, Generated from Buyer Portal, Preferences Page:
-
-$api_key = "{{ API_KEY }}";
-
-//TCXC i_account that you want to use for Callback billing, 
-
-
-$i_account = 1;  // You can get account ID from Accounts Page
-
-
-//legA parameters
+//leg A parameters
 
 $cld1 = "19542405555";  //First number to dial
 $cli1 = "1800999999";  // Caller ID to show first number
-$i_connection1 = 315;  // Carrier to use e.g 315 is TATA Communications
+$i_connection1 = $TATA;  // Carrier to use is TATA Communications
 
-//legB parameters
-$cld2 = "18667478647"; //Second number to dial
-$cli2 = "962790326274"; //Caller ID t show destination number
-$i_connection2 = 529;  // Carrier to use e.g 529 is IBASIS
+//leg B parameters
+$cld2 = "18667471117"; //Second number to dial
+$cli2 = "12345678988"; //Caller ID t show destination number
+$i_connection2 = $VIBER;  // Carrier to use e.g 529 is viber
 
 $ts = time();   // Get Current Time Stamp
 
