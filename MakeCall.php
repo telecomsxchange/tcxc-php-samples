@@ -3,7 +3,7 @@
 
 include 'auth.php';
 
-include 'carriers.php';  // import carrier i_connection ids by name
+include 'carrier.php';  // import carrier i_connection ids by name
 
 
 //leg A parameters
