@@ -3,6 +3,9 @@
 
 include 'auth.php';
 
+include 'carriers.php';  // import carrier i_connection ids by name
+
+
 //leg A parameters
 
 $cld1 = "19542405555";  //First number to dial
