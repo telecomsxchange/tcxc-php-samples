@@ -38,14 +38,3 @@ $content = curl_exec($handle);
 
 echo $content;
 
-// echo call information
-
-echo "Call has started between  $cld1 and $cld2"; 
-echo "<br>";
-echo "First number $cld1 will see caller ID $cli1 ";
-echo "<br>";
-echo "Second number $cld2 will see caller ID $cli2 ";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<center>Thank you for using TCXC Voice Communication APIs</center>";
