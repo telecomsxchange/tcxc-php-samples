@@ -29,4 +29,4 @@ $sign = hash('sha256',$check_uri . $api_key);
 
 // initiate the call from your script
 
-makecall(); // call the function to start tge call
+makecall(); // call the function to start the call
