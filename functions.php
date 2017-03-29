@@ -3,7 +3,7 @@
 
 // INITATING THE CALL FUNCTION 
 
-function Makecall() {
+function makecall() {
 
 $handle=curl_init( $tcxc_host . $check_uri . $sign );
 curl_setopt($handle, CURLOPT_VERBOSE, true);
