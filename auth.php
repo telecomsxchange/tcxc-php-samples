@@ -4,7 +4,7 @@
 
 $tcxc_host = "https://members.telecomsxchange.com";
                                   
-//TCXC (TelecomsXChange) Buyer login
+//TCXC (TelecomsXChange) Buyer login, Dont have one ? Get it here http://www.telecomsxchange.com/voice_api
 
 $login = "{{ Buyer_Username }}";
 
@@ -13,7 +13,7 @@ $login = "{{ Buyer_Username }}";
 
 $api_key = "{{ API_KEY }}";
 
-//TCXC i_account that you want to use for Callback billing, 
+//TCXC i_account that you want to use for Callback billing
 
 
-$i_account = 1; // REPLACE 1 with your own values
+$i_account = 1; // REPLACE 1 with your i_account value from your accounts page
