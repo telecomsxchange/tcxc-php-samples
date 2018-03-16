@@ -15,3 +15,5 @@ TCXC Voice API benefits for DEVELOPERS:
 - [x] Up to 50% cost savings on outbound calls compared to twilio and nexmo , PLIVO ...
 
 Youtube Video turoial to use this API can be watched here: https://youtu.be/zpAZauQk2oc 
+
+**To obtain a developer API Key and TCXC buyer username please go to http://www.telecomsxchange.com/buyerjoin to signup.
